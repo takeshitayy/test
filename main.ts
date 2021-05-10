@@ -8,8 +8,11 @@ basic.forever(function () {
     a += 1
     basic.pause(1000)
     led.plotBarGraph(
-    a,
+    a / あ,
     50
     )
+})
+basic.forever(function () {
     関数テスト()
+    basic.pause(2000)
 })
