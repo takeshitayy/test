@@ -1,6 +1,7 @@
 function 関数テスト () {
     あ += 1
 }
+radio.setGroup(1)
 basic.showIcon(IconNames.Heart)
 let a = 0
 let あ = 0
@@ -11,6 +12,7 @@ basic.forever(function () {
     a / あ,
     50
     )
+    radio.sendString("あいう")
 })
 basic.forever(function () {
     関数テスト()
