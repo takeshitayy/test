@@ -1,3 +1,6 @@
+function 関数テスト () {
+    あ += 1
+}
 basic.showIcon(IconNames.Heart)
 let a = 0
 let あ = 0
@@ -8,5 +11,5 @@ basic.forever(function () {
     a,
     50
     )
-    あ += 1
+    関数テスト()
 })
